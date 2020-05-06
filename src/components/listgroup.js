@@ -6,7 +6,7 @@ class ListGroup extends Component{
          <ul className="list-group ">
             <li className="list-group-item">
                 <div className="dropdown">
-                <button className="btn btn-secondary dropdown-toggle float-sm-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button className="btn btn-primary dropdown-toggle float-sm-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                          Category Management  
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -17,7 +17,7 @@ class ListGroup extends Component{
             </li>
             <li className="list-group-item">
             <div className="dropdown">
-                    <button className="btn btn-secondary dropdown-toggle float-sm-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button className="btn btn-primary dropdown-toggle float-sm-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                          Product Management  
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -27,14 +27,14 @@ class ListGroup extends Component{
                 </div>
             </li>
             <li className="list-group-item">
-                <a className="p-2 mb-2 bg-secondary text-white float-sm-left" href="/ratings">Review and Rating </a>
+                <a className="p-2 mb-2 bg-primary text-white float-sm-left" href="/ratings">Review and Rating </a>
             </li>
             <li className="list-group-item">
-                <a className="p-2 mb-2 bg-secondary text-white float-sm-left" href="/users">User Management </a>
+                <a className="p-2 mb-2 bg-primary text-white float-sm-left" href="/users">User Management </a>
             </li>
             <li className="list-group-item">
             <div className="dropdown">
-                <button className="btn btn-secondary dropdown-toggle float-sm-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button className="btn btn-primary dropdown-toggle float-sm-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Author details update  
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
